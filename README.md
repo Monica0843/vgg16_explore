@@ -11,8 +11,8 @@ Steps:
 
 2. Run command:    python predict.py image_path model_name  
 	for example: 
+cid:6353E45D-9D46-4AEB-9C7B-8E056A98A3F0@hsd1.nj.comcast.net
 
-PastedGraphic-2.png
 
 	Result:  
 		Prediction Model used is: svc.cpickle 
