@@ -10,15 +10,14 @@ Steps:
 	Result:  2 files(logit.cpickle, svc.cpickle) will be saved under “transfer-learning-keras” directory (parallel to the original train.py). 
 
 2. Run command:    python predict.py image_path model_name  
-	for example: 
-cid:6353E45D-9D46-4AEB-9C7B-8E056A98A3F0@hsd1.nj.comcast.net
-
+   
+   #### python predict.py 1_10.jpg svc.cpickle 
 
 	Result:  
 		Prediction Model used is: svc.cpickle 
 		It is food. 
+   #### python predict.py 0_10.jpg logit.cpickle 
 
-PastedGraphic-4.png
 	Result:
 	Prediction Model used is: logit.cpickle 
 	It is not food. 
